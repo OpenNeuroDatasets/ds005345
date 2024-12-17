@@ -12,13 +12,15 @@
             "F": "female"
         }
     },
-    "group": {
+    "eeg_acq_time": {
         "LongName": "",
-        "Description": "experimental group the participant belonged to",
-        "Levels": {
-            "control": "control",
-            "patient": "case"
-        }
+        "Description": "EEG data acquisition time",
+        "Units": "year-month-date"
+    },
+    "fmri_acq_time": {
+        "LongName": "",
+        "Description": "fMRI data acquisition time",
+        "Units": "year-month-date"
     }
 }
 
