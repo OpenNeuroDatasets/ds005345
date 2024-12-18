@@ -16,10 +16,3 @@ Currently, many previous research in naturalistic listening has predominantly re
 
 ## Method and Design
 The "Le Petit Prince Multitalker" dataset is a high-quality neuroimaging resource that includes EEG and 7T fMRI recordings from 25 native Mandarin speakers, exploring neural processing during single- and multi-talker speech comprehension. Participants listened to excerpts from Le Petit Prince narrated by male and female voices in various conditions, with data collected two years apart for EEG and fMRI. The dataset features prosodic and linguistic annotations, including pitch, intensity, word segmentation, and syntactic complexity. It includes both detailed preprocessing pipelines for EEG (e.g., ICA for artifact removal) and fMRI (e.g., motion correction, spatial normalization). This dataset provides valuable insights into how the brain processes speech in complex auditory environments and supports research on speaker-specific neural adaptation and gender-related processing differences.
-
-## Dataset Contents
-The datasets includes:
-raw EEG and fMRI data
-preprocessed EEG and fMRI data
-behavioral results
-audio and text annotations
