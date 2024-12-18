@@ -1,7 +1,7 @@
-#Project info
+# Project info
 Data acquisition for this project started in September, 2021 and ended in July, 2024.
 
-#Contact
+# Contact
 For any question regarding this data, please contact:
 Prof. Jixing Li, jixingli@cityu.edu.hk
 Ms. Zhengwu Ma, zhengwuma2-c@my.cityu.edu.hk
@@ -9,8 +9,8 @@ Ms. Nan Wang, nanwang@my.cityu.edu.hk
 
 ==================================
 
-#Overview
-##Background and Aim
+# Overview
+## Background and Aim
 Currently, many previous research in naturalistic listening has predominantly relied on single-talker datasets, which, while valuable, fail to capture the complexities of real-world multi-talker scenarios. Here, we introduce the Le Petit Prince Multitalker Dataset, a high-quality, naturalistic neuroimaging dataset featuring 40 minutes of electroencephalogram (EEG) and functional magnetic resonance imaging (fMRI) recordings from 25 native Mandarin Chinese speakers while they listened to both single-talker and dual-talker speeches. The dataset includes transcriptions, prosodic and linguistic annotations, speaker metadata, and allows for the exploration of the dynamics of multi-speaker interactions. Both EEG and fMRI validation analyses demonstrate high data quality. 
 
 ##Method and Design
