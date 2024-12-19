@@ -1,12 +1,10 @@
-# Project info
-Data acquisition for this project started in September, 2021 and ended in July, 2024.
+## Overview
+he "Le Petit Prince Multitalker" dataset is a high-quality neuroimaging resource designed to investigate neural mechanisms underlying speech comprehension in complex listening environments.    It features 64-channels EEG and 7T fMRI collected from 25 native Mandarin speakers. Participants listened to excerpts from the Chinese translation of Le Petit Prince, narrated under single- and multi-talker speech conditions. EEG and fMRI data were collected two years apart.
 
-# Contact
+Our dataset also includes rich prosodic and linguistic annotations, such as pitch, intensity, word segmentation, log-transformed word frequency, and more. It offers a valuable resource for studying how the brain processes speech in challenging auditory environments, providing unique insights into neural responses to multitalker scenarios.
+
+## Contact
 For any question regarding this data, please contact:
 - Prof. Jixing Li, jixingli@cityu.edu.hk
 - Ms. Zhengwu Ma, zhengwuma2-c@my.cityu.edu.hk
 - Ms. Nan Wang, nanwang@my.cityu.edu.hk
-
-# Overview
-
-The "Le Petit Prince Multitalker" dataset is a high-quality neuroimaging resource that includes EEG and 7T fMRI recordings from 25 native Mandarin speakers, exploring neural processing during single- and multi-talker speech comprehension. Participants listened to excerpts from Le Petit Prince narrated by male and female voices in various conditions, with data collected two years apart for EEG and fMRI. The dataset features prosodic and linguistic annotations, including pitch, intensity, word segmentation, and syntactic complexity. It includes both detailed preprocessing pipelines for EEG (e.g., ICA for artifact removal) and fMRI (e.g., motion correction, spatial normalization). This dataset provides valuable insights into how the brain processes speech in complex auditory environments and supports research on speaker-specific neural adaptation and gender-related processing differences.
