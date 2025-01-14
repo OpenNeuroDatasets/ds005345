@@ -1,5 +1,5 @@
 ## Overview
-he "Le Petit Prince Multitalker" dataset is a high-quality neuroimaging resource designed to investigate neural mechanisms underlying speech comprehension in complex listening environments.    It features 64-channels EEG and 7T fMRI collected from 25 native Mandarin speakers. Participants listened to excerpts from the Chinese translation of Le Petit Prince, narrated under single- and multi-talker speech conditions. EEG and fMRI data were collected two years apart.
+The "Le Petit Prince Multitalker" dataset is a high-quality neuroimaging resource designed to investigate neural mechanisms underlying speech comprehension in complex listening environments.    It features 64-channels EEG and 7T fMRI collected from 25 native Mandarin speakers. Participants listened to excerpts from the Chinese translation of Le Petit Prince, narrated under single- and multi-talker speech conditions. EEG and fMRI data were collected two years apart.
 
 Our dataset also includes rich prosodic and linguistic annotations, such as pitch, intensity, word segmentation, log-transformed word frequency, and more. It offers a valuable resource for studying how the brain processes speech in challenging auditory environments, providing unique insights into neural responses to multitalker scenarios.
 
