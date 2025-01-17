@@ -1,0 +1,8 @@
+## Overview
+Le Petit Prince (LPP) Multitalker Dataset us a high-quality, naturalistic neuroimaging dataset featuring a total of 40 minutes of electroencephalogram (EEG) and 7T functional magnetic resonance imaging (fMRI) recordings from 26 native Mandarin Chinese speakers as they listened to both single-talker and multi-talker speech streams. Validation analyses conducted on both EEG and fMRI data demonstrate the dataset’s high quality and robustness. Additionally, the dataset includes detailed transcriptions and prosodic and linguistic annotations of the speech stimuli, enabling fine-grained analyses of neural responses to specific linguistic and acoustic features. The LPP Multitalker Dataset is well-suited for addressing a wide range of research questions in cognitive neuroscience, including selective attention, auditory stream segregation, and working memory processes in naturalistic listening contexts.
+
+## Contact
+For any question regarding this data, please contact:
+- Prof. Jixing Li, jixingli@cityu.edu.hk
+- Ms. Zhengwu Ma, zhengwuma2-c@my.cityu.edu.hk
+- Ms. Nan Wang, nanwang@my.cityu.edu.hk
