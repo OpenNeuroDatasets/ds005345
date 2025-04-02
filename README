@@ -6,14 +6,14 @@ In the case of French participants, due to legal constraints, additional session
 
 ## Experiment Procedure
 
-### MRI Scanning Sessions
+MRI Scanning Sessions
 
 Participants underwent both EEG and fMRI experiments while listening to the Chinese version of *Le Petit Prince*. During the MRI session, participants were instructed to maintain fixation on a crosshair on the screen and minimize eye movements and head motions. The task involved attending to different talkers in the multitalker condition (single male, single female, mixed male, and mixed female talkers).
 
-### Session Breakdown
+Session Breakdown
 
 - The entire session lasted approximately **70 minutes** for fMRI participants, including a series of 4 conditions (single-talker, mixed-attended, and mixed-unattended conditions).
-- **Quiz questions** were administered after each run to assess participants' comprehension of the narrative.
+- Quiz questions were administered after each run to assess participants' comprehension of the narrative.
 
 In the French cohort, due to legal time constraints, the experiment durations were adjusted.
 
@@ -25,28 +25,28 @@ The English and Chinese versions were enhanced with visual stimuli (e.g., images
 
 ## Acquisition
 
-### MRI Hardware & Scanning Parameters
+MRI Hardware & Scanning Parameters
 
-- **EEG**: Data were collected using a 64-channel actiCAP system, sampled at 500 Hz, and filtered between 0.016 and 80 Hz.
-- **fMRI**: Scanning was performed on a **7.0 T Terra Siemens MRI scanner** at the Zhangjiang International Brain Imaging Centre. The scanning parameters differed slightly between the English/Chinese and French studies due to equipment availability.
+- EEG: Data were collected using a 64-channel actiCAP system, sampled at 500 Hz, and filtered between 0.016 and 80 Hz.
+- fMRI: Scanning was performed on a **7.0 T Terra Siemens MRI scanner** at the Zhangjiang International Brain Imaging Centre. The scanning parameters differed slightly between the English/Chinese and French studies due to equipment availability.
 
-  - **Functional MRI**: 85 interleaved axial slices (1.6×1.6×1.6 mm voxel size, TR = 1000 ms, TE = 22.2 ms)
-  - **Anatomical MRI**: MP-RAGE sequence, T1-weighted images (voxel size = 0.7×0.7×0.7 mm).
+  - Functional MRI: 85 interleaved axial slices (1.6×1.6×1.6 mm voxel size, TR = 1000 ms, TE = 22.2 ms)
+  - Anatomical MRI: MP-RAGE sequence, T1-weighted images (voxel size = 0.7×0.7×0.7 mm).
 
 ## Preprocessing
 
-### MRI Data Processing
+MRI Data Processing
 
-1. **DICOM to NIfTI Conversion**: All raw MRI data were converted to NIfTI format using `dcm2niix` (version 1.0.20220505) and processed using the `fMRIPrep` pipeline (version 20.2.0).
-2. **Anatomical Preprocessing**:
+1. DICOM to NIfTI Conversion: All raw MRI data were converted to NIfTI format using `dcm2niix` (version 1.0.20220505) and processed using the `fMRIPrep` pipeline (version 20.2.0).
+2. Anatomical Preprocessing:
    - Skull stripping
    - Segmentation into gray matter (GM), white matter (WM), and cerebrospinal fluid (CSF)
    - Registration to the Montreal Neurological Institute (MNI) space using MNI152NLin2009cAsym:res-2 template.
-3. **Functional Preprocessing**:
+3. Functional Preprocessing:
    - Motion correction
    - Slice-timing correction
    - Multi-echo ICA for denoising
    - Voxel resampling to native and MNI spaces.
 
-**Note**: Visual stimuli processing for the English and Chinese conditions was handled separately to avoid potential biases in the analysis.
+Note: Visual stimuli processing for the English and Chinese conditions was handled separately to avoid potential biases in the analysis.
 
