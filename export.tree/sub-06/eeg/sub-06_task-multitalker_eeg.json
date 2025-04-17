@@ -1,0 +1,32 @@
+{
+    "TaskName": "multitalker",
+    "TaskDescription": "Listening to multitalker narratives for auditory processing research",
+    "Instructions": "Your task is to listen to narratives",
+    "InstitutionName": "Shanghai Ninth People’s Hospital",
+    "SamplingFrequency": 500.0,
+    "Manufacturer": "Brain Products",
+    "ManufacturersModelName": "BrainAmp DC",
+    "CapManufacturer": "EasyCap",
+    "CapManufacturersModelName": "M10",
+    "EEGChannelCount": 64,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 0,
+    "TriggerChannelCount": 0,
+    "PowerLineFrequency": 50,
+    "EEGPlacementScheme": "10-20 system",
+    "EEGReference": "Cz",
+    "EEGGround": "AFz",
+    "SoftwareFilters": {
+        "HighPass": {
+            "CutoffFrequency": 0.02,
+            "FilterType": "Butterworth"
+        },
+        "LowPass": {
+            "CutoffFrequency": 1000.0,
+            "FilterType": "Butterworth"
+        }
+    },
+    "RecordingType": "continuous"
+}
