@@ -9,5 +9,6 @@
     ],
     "EthicsApprovals": [
         "The experimental procedures have been approved by the Ethics Committee of City University of Hong Kong and the Ninth People’s Hospital affiliated with Shanghai Jiao Tong University School of Medicine (EEG: SH9H-2019-T33-2; fMRI: SH9H-2022-T379-2)."
-    ]
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds005345.v1.0.1"
 }
